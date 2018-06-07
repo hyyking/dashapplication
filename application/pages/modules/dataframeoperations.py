@@ -2,9 +2,9 @@
 Takes a dataframe as input, purpose is to apply operations on a copy of the dataframe
 usefull to plot things easily.
 
-Also permits to change the dataframe format such as indexing time or adding data
+Also allows to change the dataframe format such as indexing time or adding data
 
-Every operation has it's 'time_' equivalent, only means that it regoups data in groups and applies
+Every operation has it's 'time_' equivalent, only means that it regoups data and applies
 the operations on the group
 
 Available functions:
@@ -28,7 +28,8 @@ import math
 
 
 class dfOperations(object):
-	'''Dataframe operations'''
+	'''Dataframe operations
+	Stores the data'''
 	'''______________________________________________Class Attributes______________________________________________'''
 	
 	def __init__(self, file):
